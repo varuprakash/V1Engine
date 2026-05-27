@@ -1,0 +1,10 @@
+^F:\GAME\V1ENGINE\ENGINEDEV\BUILD\CMAKEFILES\D9B8724EF954AB185BE6D16B8444ACA0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/game/V1Engine/EngineDev -BF:/game/V1Engine/EngineDev/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/game/V1Engine/EngineDev/Build/VEngine.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

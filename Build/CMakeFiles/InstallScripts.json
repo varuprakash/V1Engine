@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/game/V1Engine/EngineDev/Build/cmake_install.cmake",
+		"F:/game/V1Engine/EngineDev/Build/Engine/cmake_install.cmake",
+		"F:/game/V1Engine/EngineDev/Build/Sandbox/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
